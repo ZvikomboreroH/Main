@@ -6,6 +6,9 @@ package com.mycompany.main;
 import java.util.regex.Pattern;
 /**
  *
+ * Regex-based password/cell phone validation approach adapted from common
+ * Java regex validation patterns discussed at:
+ * https://www.baeldung.com/java-regex-password-validation (reference only)
  * @author Student
  */
 public class Login {
