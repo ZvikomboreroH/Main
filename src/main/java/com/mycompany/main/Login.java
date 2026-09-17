@@ -67,6 +67,8 @@ public class Login {
     /**
      * Password must be at least eight characters long and contain a
      * capital letter, a number, and a special character.
+     * @return true if the username meets both requirements;
+     * otherwise, false.
      */
     public boolean checkPasswordComplexity() {
         if (password == null) {
