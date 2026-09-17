@@ -29,6 +29,8 @@ public class Login {
     }
 
     // ---------- Getters ----------
+    // Getters are methods used to retrieve the values of private 
+    // instance variables. They provide controlled access to data.
     public String getFirstName() {
         return firstName;
     }

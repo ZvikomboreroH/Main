@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        // Create a Scanner object to read input from the keyboard.
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== Chat App: Registration ===");
