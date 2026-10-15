@@ -168,32 +168,7 @@ public class Main {
         }
     }
 
-    private static String readMessageText(Scanner scanner) {
-        while (true) {
-            System.out.print("Enter your message (max 250 characters): ");
-            String text = scanner.nextLine();
-            if (Message.isValidLength(text)) {
-                System.out.println("Message sent");
-                return text;
-            }
-            System.out.println("Please enter a message of less than 250 characters.");
-        }
-    }
- private static int readPositiveInt(Scanner scanner, String prompt) {
-        while (true) {
-            System.out.print(prompt);
-            try {
-                int value = Integer.parseInt(scanner.nextLine().trim());
-                if (value > 0) {
-                    return value;
-                }
-            } catch (NumberFormatException ignored) {
-                // fall through to the error message
-            }
-            System.out.println("Please enter a whole number greater than 0.");
-        }
-    }
-}
+  
 
 
    
