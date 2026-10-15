@@ -361,7 +361,25 @@ public class Message {
             throw new IOException("The JSON file is not valid: " + e.getMessage(), e);
         }
     }
+ // ---------- Test / housekeeping helpers ----------
  
+    /** Sets the scanner used by SentMessage() so Main and Message share one System.in reader. */
+    public static void setScanner(Scanner scanner) {
+        input = scanner;
+    }
+ 
+    /** Points the JSON store at a different file (used by unit tests). */
+    public static void setStoreFile(String fileName) {
+        storeFile = fileName;
+    }
+ 
+    /** Clears the session state so each test starts fresh. */
+    public static void resetSession() {
+        sentLog = "";
+        numMessagesSent = 0;
+    }
+}
+
     
     
 
