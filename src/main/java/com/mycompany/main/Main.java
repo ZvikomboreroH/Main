@@ -33,8 +33,6 @@ public class Main {
         scanner.close();
     }
 
-    // ---------------------------------------------------------------- Part 1
-
     private static Login register(Scanner scanner) {
         System.out.println("=== Chat App: Registration ===");
 
@@ -140,6 +138,7 @@ public class Main {
             String text = readMessageText(scanner);
 
             Message message = new Message(recipient, text);
+            System.out.println(message.getMessageIDStatus());
             String result = message.SentMessage();
             messagesEntered++;
 
@@ -154,8 +153,7 @@ public class Main {
         System.out.println("Total number of messages sent: " + Message.returnTotalMessages());
         return messagesEntered;
     }
-
-    private static String readRecipient(Scanner scanner) {
+  private static String readRecipient(Scanner scanner) {
         while (true) {
             System.out.print("Enter the recipient's cell number (e.g. +27718693002): ");
             String cell = scanner.nextLine().trim();
@@ -193,8 +191,3 @@ public class Main {
         }
     }
 }
-
-  
-
-
-   

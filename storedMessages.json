@@ -1,0 +1,37 @@
+{
+  "5230571841": {
+    "messageNumber": 1,
+    "recipient": "+27687743557",
+    "messageID": "5230571841",
+    "messageHash": "52:1:HAZELHAZEL",
+    "message": "Hazel"
+  },
+  "9441896571": {
+    "messageNumber": 0,
+    "recipient": "+27687763554",
+    "messageID": "9441896571",
+    "messageHash": "94:0:HEYSEXY",
+    "message": "Hey sexy"
+  },
+  "9101748348": {
+    "messageNumber": 0,
+    "recipient": "+27832160855",
+    "messageID": "9101748348",
+    "messageHash": "91:0:HEYBACK",
+    "message": "Hey, welcome back."
+  },
+  "6207220567": {
+    "messageNumber": 0,
+    "recipient": "+27622288721",
+    "messageID": "6207220567",
+    "messageHash": "62:0:HEYSIR",
+    "message": "Hey Sir"
+  },
+  "1892038243": {
+    "messageNumber": 0,
+    "recipient": "+27668889107",
+    "messageID": "1892038243",
+    "messageHash": "18:0:HEY1",
+    "message": "Hey, Group 1"
+  }
+}
