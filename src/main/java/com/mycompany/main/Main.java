@@ -432,5 +432,8 @@ case "2":
                 }
   } catch (IOException ex) {
                 System.out.println("Unable to access stored messages: " + ex.getMessage());
-            
+            }
+        }
+    }
+}      
     
