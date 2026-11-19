@@ -347,20 +347,4 @@ public class MessageArrays {
         return disregardedMessages.length;
     }
 
-    // Counts stored messages
-    public static int getStoredCount()
-            throws IOException {
-
-        return getStoredMessages().length;
-    }
-
-    // Resets all arrays
-    public static void resetPart3Arrays() {
-
-        sentMessages = new Messages[0];
-
-        disregardedMessages = new Messages[0];
-
-        storedMessages = new Messages[0];
-    }
-}
+   
