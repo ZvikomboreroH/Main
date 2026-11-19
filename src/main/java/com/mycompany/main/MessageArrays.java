@@ -352,8 +352,7 @@ public class MessageArrays {
 
         return getStoredMessages().length;
     }
-
-    // Resets all arrays
+ // Resets all arrays
     public static void resetPart3Arrays() {
 
         sentMessages = new Messages[0];
@@ -363,4 +362,5 @@ public class MessageArrays {
         storedMessages = new Messages[0];
     }
 }
+   
    
