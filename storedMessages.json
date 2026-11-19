@@ -1,0 +1,40 @@
+{
+  "3853747817": {
+    "messageNumber": 1,
+    "recipient": "+27687763556",
+    "messageID": "3853747817",
+    "messageHash": "38:1:BYEBYE",
+    "message": "bye"
+  },
+  "5099182616": {
+    "messageNumber": 1,
+    "recipient": "+27687763551",
+    "messageID": "5099182616",
+    "messageHash": "50:1:HELLOHELLO",
+    "message": "hello",
+    "status": "Stored"
+  },
+  "3178666169": {
+    "messageNumber": 1,
+    "recipient": "+27687763556",
+    "messageID": "3178666169",
+    "messageHash": "31:1:BAEBAE",
+    "message": "bae",
+    "status": "Stored"
+  },
+  "0720639306": {
+    "messageNumber": 1,
+    "recipient": "+27687763554",
+    "messageID": "0720639306",
+    "messageHash": "07:1:HEYYOU",
+    "message": "Hey Hazel.How are you?"
+  },
+  "7957133087": {
+    "messageNumber": 1,
+    "recipient": "+27687763552",
+    "messageID": "7957133087",
+    "messageHash": "79:1:BYEBYE",
+    "message": "bye",
+    "status": "Stored"
+  }
+}
