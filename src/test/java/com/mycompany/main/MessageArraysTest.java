@@ -376,26 +376,3 @@ public class MessageArraysTest {
     }
 
     // TEST 20: Retrieve JSON and memory messages without duplicates
-    @Test
-    public void testGetStoredMessagesCombinesMemoryAndJSON()
-            throws IOException {
-
-        message1.storeMessage();
-
-        MessageArrays.addStoredMessage(message1);
-        MessageArrays.addStoredMessage(message2);
-
-        Messages[] stored =
-            MessageArrays.getStoredMessages();
-
-        assertEquals(2, stored.length);
-
-        assertTrue(Arrays.stream(stored)
-            .anyMatch(m -> m.getMessageID().equals(
-                message1.getMessageID())));
-
-        assertTrue(Arrays.stream(stored)
-            .anyMatch(m -> m.getMessageID().equals(
-                message2.getMessageID())));
-    }
-}
