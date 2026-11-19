@@ -430,9 +430,4 @@ case "2":
                     default:
                         System.out.println("Please enter a number from 1 to 7.");
                 }
-            } catch (IOException ex) {
-                System.out.println("Unable to access stored messages: " + ex.getMessage());
-            }
-        }
-    }
-}
+           
