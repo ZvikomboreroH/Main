@@ -246,14 +246,4 @@ public class Messages {
         return out.toString().trim();
     }
 
-    public static int returnTotalMessages() { return numMessagesSent; }
-    public String getMessageID() { return messageID; }
-    public String getMessageHash() { return messageHash; }
-    public int getMessageNumber() { return messageNumber; }
-    public String getRecipient() { return recipient; }
-    public String getMessage() { return message; }
-    public String getStatus() { return status; }
-    public static void setScanner(Scanner scanner) { input = scanner; }
-    public static void setStoreFile(String fileName) { storeFile = fileName; }
-    public static void resetSession() { numMessagesSent = 0; sentForReport.clear(); }
-}
+   
